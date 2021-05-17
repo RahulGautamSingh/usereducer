@@ -1,0 +1,24 @@
+.sidebar-container {
+    /* font-style:italic; */
+    background-color: rgb(206, 233, 190);
+    display: flex;
+    flex-direction: column;
+    width:15%;
+ height:100%;
+}
+.sidebar-h1{
+    height: fit-content;
+   
+}
+.sidebar-container ul{
+    margin-top:11px;
+    height:100%;
+}
+.sidebar-container li{
+    min-height: fit-content;
+  max-height: 10%;
+    border: 1px solid black;
+}
+.sidebar-container li:hover{
+    border: 3px solid white;
+}

@@ -1,0 +1,14 @@
+.navbar{
+    font-style:italic;
+    background-color:rgb(233, 190, 197);
+    height: 100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  
+}
+
+.navbar button{
+    width:100%;
+    height:100%;
+}
