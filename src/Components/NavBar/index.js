@@ -6,7 +6,8 @@ export default function NavBar(props) {
   let contextData = useContext(counterContext);
   return (
       <div className="navbar">
-          <button onClick={() => contextData.dispatch("reset")}>Reset</button>
+        <h1>NavBar</h1>
+          <h1>{contextData.counterState.counterValue}</h1>
       </div>
   )
 }

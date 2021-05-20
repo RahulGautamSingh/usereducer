@@ -8,17 +8,5 @@
 }
 .sidebar-h1{
     height: fit-content;
+} 
    
-}
-.sidebar-container ul{
-    margin-top:11px;
-    height:100%;
-}
-.sidebar-container li{
-    min-height: fit-content;
-  max-height: 10%;
-    border: 1px solid black;
-}
-.sidebar-container li:hover{
-    border: 3px solid white;
-}
